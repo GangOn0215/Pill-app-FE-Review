@@ -10,3 +10,35 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.header-h2 {
+  text-align: center;
+}
+.editor {
+  display: flex;
+  flex-direction: column;
+}
+.editor * {
+  margin-bottom: 10px;
+}
+.editor input,
+.editor textarea,
+.editor .expiration-date {
+  width: 300px;
+  box-sizing: border-box;
+}
+.editor .expiration-date {
+  display: flex;
+  margin: 0;
+}
+.editor .expiration-date span {
+  margin: 0 5px;
+}
+.editor .expiration-date input {
+  text-align: center;
+  width: 50%;
+}
+.editor textarea {
+  resize: vertical;
+  height: 100px;
+}
